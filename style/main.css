@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  width: 1400px;
+  height: 590px;
+}
+h1  {
+  font-family: 'Raleway', sans-serif;
+  color: #212121;
+margin: 107px auto 0 auto;
+  text-align: center;
+  font-size: 36px;
+}
+.divider {
+background-color: orange;
+  width: 64px;
+  height: 2px;
+margin: 30px auto;
+}
+h3{
+  font-family: 'Open Sans', sans-serif;
+  color: #86878B;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 auto 80px 0;
+}
+main{
+  margin: 0 0 0 111px ;
+}
+.box{
+  display: inline-block;
+  width: 350px;
+  height: 197px;
+  margin: 0 0 0 32px ;
+  vertical-align: middle;
+}
+.light{
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  border: solid orange;
+  border-radius: 100%;
+  position: relative;
+}
+.light>img {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+.keyboard{
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  border: solid orange;
+  border-radius: 100%;
+  position: relative;
+
+}
+.keyboard>img {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+.lightning{
+   width: 70px;
+   height: 70px;
+   margin: 0 auto;
+   border: solid orange;
+   border-radius: 100%;
+  position: relative;
+
+}
+ .lightning>img {
+   position: absolute;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   left: 50%;
+ }
+ h2{
+   font-family: 'Open Sans', sans-serif;
+color: #333333;
+   font-size: 20px;
+   text-align: center;
+   margin: 29px auto 25px auto;
+ }
+ p{
+   font-size: 14px;
+   color: #86878B;
+   vertical-align: baseline;
+   text-align: center;
+ }
